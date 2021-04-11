@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script src="./linkedList.js"></script>
+  <script>
+    const linkedList = new LinkedList()
+    linkedList.append('aaa')
+    linkedList.append('bbb')
+    linkedList.append('ccc')
+    linkedList.append('ddd')
+    // linkedList.insert(2, '222')
+    console.log(linkedList);
+    
+    console.log(linkedList.get(2));
+    console.log(linkedList.indexOf('d'));
+    linkedList.update(2, '222')
+    console.log(linkedList);
+    
+    console.log(linkedList.removeAt(2));
+    console.log(linkedList);
+    linkedList.remove('bbb')
+    console.log(linkedList);
+    console.log(linkedList.size());
+    console.log(linkedList.toString());
+  </script>
+</body>
+</html>
