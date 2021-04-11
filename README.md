@@ -1,2 +1,2 @@
 # js_dataStructure
-js实现一些简单算法
+js封装数据结构
