@@ -9,14 +9,14 @@
 // size()
 // toString()
 
-export class Node {
+class Node {
   constructor(element) {
     this.element = element;
     this.next = null
   }
 }
 
-export class LinkedList {
+class LinkedList {
   constructor() {
     this.head = null
     this.length = 0
