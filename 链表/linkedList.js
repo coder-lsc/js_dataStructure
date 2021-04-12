@@ -105,6 +105,7 @@ class LinkedList {
     const index = this.indexOf(element)
     if (index === -1) return ;
     this.removeAt(index)
+    return index
   }
   isEmpty() {
     return this.length === 0
