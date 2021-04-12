@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script src="./doublyLinkedList.js"></script>
+  <script>
+    const doublyLinkedList = new DoublyLinkedList()
+    // doublyLinkedList.append('aaa')
+    // doublyLinkedList.append('bbb')
+    // doublyLinkedList.append('ccc')
+    doublyLinkedList.insert(0, '111')
+    doublyLinkedList.insert(0, '222')
+    doublyLinkedList.insert(0, '333')
+    doublyLinkedList.insert(3, '444')
+    // console.log(doublyLinkedList);
+    // console.log(doublyLinkedList.get(1));
+    // console.log(doublyLinkedList.indexOf('444'));
+    // console.log(doublyLinkedList.removeAt(3));
+    // console.log(doublyLinkedList.removeAt(1));
+    // console.log(doublyLinkedList.removeAt(0));
+    // // console.log(doublyLinkedList);
+    // doublyLinkedList.update(0, 'aaa')
+    // console.log(doublyLinkedList);
+    
+    // console.log(doublyLinkedList.remove('aaa'));
+    console.log(doublyLinkedList.forwardString());
+    console.log(doublyLinkedList.backwardString());
+  </script>
+</body
+</html>
