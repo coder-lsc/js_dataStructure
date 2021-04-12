@@ -3,15 +3,20 @@
 // get(position)
 // indexOf() 返回索引或-1
 // update(position, element) 修改
+// removeAt(position)
+// remove(element) 移除一项
+// isEmpty()
+// size()
+// toString()
 
-class Node {
+export class Node {
   constructor(element) {
     this.element = element;
     this.next = null
   }
 }
 
-class LinkedList {
+export class LinkedList {
   constructor() {
     this.head = null
     this.length = 0
